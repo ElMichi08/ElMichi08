@@ -22,18 +22,6 @@ Construyo software para problemas operativos reales: dos de mis proyectos están
 
 ## Proyectos destacados
 
-### [De Vacos: POS móvil offline-first](https://github.com/ElMichi08/de_vacos)
-
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
-
-POS para el negocio de comida rápida de mi familia: pedidos, pantalla de cocina en tiempo real, caja, control de stock e impresión térmica. Funciona sin internet y sincroniza los reportes con la nube.
-
-- Sostuvo el crecimiento de ~40 a más de 100 pedidos diarios (picos de 160) sin cambiar el proceso operativo.
-- Hook pre-commit que bloquea cualquier commit si fallan `flutter analyze` o los tests. Los tests se generaron con IA a partir de las reglas de negocio que definí.
-
 ### [LuxMed: validación de seguros médicos on-premise](https://github.com/ElMichi08/LuxMed)
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
@@ -46,6 +34,18 @@ App de escritorio, hecha en equipo de 2, que valida la cobertura de seguro de pa
 
 - La validación pasó de hasta 45 min a menos de 1 min por paciente. En el piloto, un lote de ~400 pacientes se procesó en ~4 h.
 - Arquitectura hexagonal con ADRs y 13 especificaciones Gherkin escritas por nosotros. Los tests en pytest se generaron con IA a partir de esas especificaciones, incluidos tests que impiden que las capas de la arquitectura se mezclen. CI con GitHub Actions.
+  
+### [De Vacos: POS móvil offline-first](https://github.com/ElMichi08/de_vacos)
+
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
+
+POS para el negocio de comida rápida de mi familia: pedidos, pantalla de cocina en tiempo real, caja, control de stock e impresión térmica. Funciona sin internet y sincroniza los reportes con la nube.
+
+- Sostuvo el crecimiento de ~40 a más de 100 pedidos diarios (picos de 160) sin cambiar el proceso operativo.
+- Hook pre-commit que bloquea cualquier commit si fallan `flutter analyze` o los tests. Los tests se generaron con IA a partir de las reglas de negocio que definí.
 
 ### [Dashboard predictivo de stock](https://github.com/joel12sa/S_stock_ia) (pasantía en Import-Quivensa)
 
