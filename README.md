@@ -47,7 +47,7 @@ App de escritorio, hecha en equipo de 2, que valida la cobertura de seguro de pa
 - La validación pasó de hasta 45 min a menos de 1 min por paciente. En el piloto, un lote de ~400 pacientes se procesó en ~4 h.
 - Arquitectura hexagonal con ADRs y 13 especificaciones Gherkin escritas por nosotros. Los tests en pytest se generaron con IA a partir de esas especificaciones, incluidos tests que impiden que las capas de la arquitectura se mezclen. CI con GitHub Actions.
 
-### [Dashboard predictivo de stock](https://github.com/joel12sa/S_stock_ia) (pasantía en Import-Quivenza)
+### [Dashboard predictivo de stock](https://github.com/joel12sa/S_stock_ia) (pasantía en Import-Quivensa)
 
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
