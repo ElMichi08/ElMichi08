@@ -47,15 +47,6 @@ POS para el negocio de comida rápida de mi familia: pedidos, pantalla de cocina
 - Sostuvo el crecimiento de ~40 a más de 100 pedidos diarios (picos de 160) sin cambiar el proceso operativo.
 - Hook pre-commit que bloquea cualquier commit si fallan `flutter analyze` o los tests. Los tests se generaron con IA a partir de las reglas de negocio que definí.
 
-### [Dashboard predictivo de stock](https://github.com/joel12sa/S_stock_ia) (pasantía en Import-Quivensa)
-
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-
-
 ## Stack
 
 <p align="left">
